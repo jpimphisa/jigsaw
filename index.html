@@ -10,7 +10,7 @@ $(document).ready(function(){
 
     $('#button').click(function(e) {  
         var inputvalue = $("#input").val();
-        window.location.replace(" http://www.google."+inputvalue);
+        parent.location(" http://www.google."+inputvalue);
 
     });
 });
@@ -18,7 +18,7 @@ $(document).ready(function(){
 </head>
 <body>
 
-       <input type="text" value="11" id="input"> 
+       <input type="text" value="com" id="input"> 
        <button type="button" id="button">Click Me!</button>
 </body>
 </html>
